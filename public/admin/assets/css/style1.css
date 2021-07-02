@@ -1,0 +1,65 @@
+header {
+	background-color: rgb(10,200,150);
+	height: 50%;
+}
+.logo {
+	width: 5%;
+	height: 10%;
+	position: relative;
+	top: 30px;
+	left: 15px;
+}
+
+.judul {
+	position: relative;
+	top: -40px;
+	text-align: center;
+}
+nav {
+	height: 25px;
+	top: -50px;
+	position: sticky;
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+.kiri {
+	width: 239px;
+	position: sticky;
+	height: 1090px;
+	background-color: pink;
+	float: left;
+	outline: solid;
+}
+.tengah {
+	width: 80%;
+	height: 00px;
+	position: center;
+	top: -100%;
+	background-color: purple;
+}
+.kanan {
+	width: 240px;
+	height: 1090px;
+	position: relative;
+	background-color: red;
+	float: right;
+	outline: solid;
+}
+.gambartengah {
+	width: 20%;
+	height: width;
+	align-items: center;
+}
+footer {
+	background-color: chartreuse;
+	top: -600px;
+	height: 40px;
+	text-align: center;
+	clear: both;
+}
+.container{
+     max-width:500px;
+      margin:0 auto;
+      background-color: yellow;
+}
