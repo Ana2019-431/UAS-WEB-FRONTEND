@@ -1,0 +1,1 @@
+<img src="<?php echo e($warga->getFoto()); ?>" alt=""><?php /**PATH C:\xampps\htdocs\tescrud\resources\views/warga/avatar.blade.php ENDPATH**/ ?>
