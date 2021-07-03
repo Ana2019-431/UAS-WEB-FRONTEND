@@ -1,0 +1,275 @@
+/*pengaturan body*/
+body {
+	background-color	:white;
+	text-align			:center;
+	font-family			:Verdana, Tahoma, Helvetica;
+	font-size			:15px;
+}
+.dark-mode {
+  background-color		: #222222;
+  color					: white;
+}
+
+/*pengaturan layout utama*/
+#layout {
+	background			:#6E6E6DDF;
+	width				:980px;
+	margin				:auto;
+	text-align			:left;
+	padding				:2px;
+}
+#header {
+	width				:100%;
+	height				:130px;
+	background-color	:#02a2d8;
+	position			:relative;
+}
+.header {
+	width				:100%;
+	height				:130px;
+}
+
+
+/*pengaturan menu*/
+#menu {
+	width				:100%;
+	height				:50px;
+	background-color	:silver;
+	position			:relative;
+}
+#menu ul {
+	margin				:0;
+	padding				:0;
+	list-style			:none;
+}
+#menu ul li {
+	float				:left;
+}
+#menu ul li a {
+	float				:left;
+	color				:#d4d4d4;
+	padding				:12px 20px;
+	text-decoration		:none;
+	background			:orange;
+	border-left			:lpx solid #3C4042;
+	border-right		:lpx solid #3C4042;
+	text-shadow			:0 -lpx rgb (0, 0, 0, 0, 6);
+}
+#menu ul li a:hoover {
+	color				:white;
+	background			:#3C4042;
+}
+
+
+#form {
+    width				:500px;
+    margin				:50px auto;
+	position			:right;
+}
+.search {
+    padding				:8px 15px;
+    background			:rgba(50, 50, 50, 0.2);
+    border				:0px solid #dbdbdb;
+}
+.button {
+    position			:relative;
+    padding				:6px 15px;
+    left				:-8px;
+    border				:2px solid #53bd84;
+    background-color	:#53bd84;
+    color				:#fafafa;
+}
+.button:hover  {
+    background-color	:#fafafa;
+    color				:#207cca;
+}
+
+#sidebar {
+	padding				:5px;
+	width				:27%;
+	background-color	:#d3beaa;
+	position			:relative;
+	float				:right;
+	border-style		:dotted;
+	border-width		:lpx;
+}
+.widget {
+	width				:99%;
+	background-bottom	:5ps;
+	border-top			:lpx solid #DFDFDF;
+	border-bottom		:lpx solid #DFDFDF;
+	border-right		:lpx solid #DFDFDF;
+	border-left			:lpx solid #DFDFDF;
+	font-size			:100%;
+	margin				:0px 0px 5px 0px;
+}
+.inisponsor {
+	width				:99%;
+	height				:150px;
+}
+.judulwidget {
+	background			:#d74006;
+	padding				:5px 10px 5px 10px;
+	margin				:0px 0px 0px 0px;
+	text-align			:center;
+	color				:white;
+	font-weight			:bold;
+	font-size			:15px;
+	margin-bottom		:5px;
+}
+.widget ul {
+	margin				:0px 0px 0px 0px;
+	padding				:0px 0px 0px 0px;
+	list-style-type		:none;
+}
+.widget li {
+	padding				:0px 0px 0px 0px;
+	background-position	:left;
+	background-repeat	:none;
+	color				:#333333;
+}
+.widget li a {
+	color				:#333333;
+	border-bottom		:lpx dotted #ccccccc;
+	text-decoration		:none;
+	display				:block;
+	margin-bottom		:5px;
+	padding				:4px 5px 3px 10px;
+}
+.widget li a:hoover {
+	color				:blue;
+}
+#wrapper{
+    font-family			: 'Poppins', sans-serif;
+    padding				: 5px 2px;
+    width				: 250px;
+    margin				: 0 auto;
+    margin-top			: 40px;
+    background			: #E4E4E4;
+    border-radius		: 5px;
+	position			:right-side;
+}
+form { 
+	display				: left-side; 
+}
+input {
+    padding				: 10px;
+    width				: 150px;
+    border				: 1px solid #0988A9;
+    border-radius		: 3px;
+}
+.bracket { 
+	color				: #0988A9; 
+}
+
+#button{
+    display				: inline-block;
+    background-color	: #0988A9;
+    color				: #ffffff;
+    padding				: 6px 15px;
+    cursor				: pointer;
+    border				: 1px solid #0988A9;
+    border-radius		: 3px;
+}
+
+ol { 
+	padding-left		: 20px;
+}
+ol li { 
+	padding				: 5px; 
+	color				:#000;
+}
+ol li:nth-child(even){ 
+	background			: #63cdda; 
+}
+li:hover{ 
+	cursor				: pointer; 
+}
+
+#isi {
+	padding				:5px;
+	width				:70%;
+	height				:auto;
+	background-color	:#ba7584;
+	position			:relative;
+	margin-top			:5px;
+}
+.isiposting {
+	background-color	:#bc9d64;
+	width				:98%;
+	height				:170px;
+	margin-bottom		:5px;
+	padding				:5px;
+}
+.gambardepan {
+	float				:left;
+	height				:140px;
+	width				:150px;
+	margin-right		:5px;
+	margin-top			:3px;
+	padding				:lpx;
+	border				:1px solid #dddddd;
+}
+.isiposting h2 {
+	font-size			:20px;
+	font-weight			:bold;
+	color				:#ffffff;
+	margin-top			:4px;
+	margin-bottom		:3px;
+}
+.isiposting a {
+	text-decoration		:none;
+}
+.isiposting a:hoover {
+	color				:yellow;
+}
+
+
+#footer {
+	width				:100%;
+	height				:50px;
+	margin-top			:5px;
+	padding-top			:30;
+	background-color	:#49494e;
+	color				:silver;
+	font-size			:12pt;
+	font-align			:center;
+	position			:relative;
+	clear				:both;
+}
+
+
+.isipostingan {
+	background-color	:#bc964;
+	width				:98%;
+	height				:auto;
+	margin-bottom		:5px;
+	padding				:5px;
+}
+.isipostingan h2 {
+	text-align			:center;
+	color				:silver;
+	font-size			:20px;
+	font-weight			:bold;
+}
+
+
+
+.profil {
+	width				:300px;
+	height				:270px;
+	display				:block;
+	float				:center;
+	padding-right		:5px;
+}
+.dark-mode {
+  background-color		: #222222;
+  color					: white;
+}
+.profil h2 {
+	text-align			:center;
+	color				:orange;
+	font-size			:20px;
+	font-weight			:bold;
+}
+
